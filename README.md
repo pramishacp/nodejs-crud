@@ -11,4 +11,4 @@ Installation
     Start the server: node server.js
 
 Testing the API
-    Test your API using Postman
+    Test your API using Postman or REST client 
