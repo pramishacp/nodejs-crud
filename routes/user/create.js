@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 //Grab the models we need
 const User = mongoose.model('User');
 
-// create a user (accessed at GET http://localhost:3000/users)
+// create a user (accessed at POST http://localhost:3000/users)
 let createUser = function(req, res) {
     
     // Assuming this is from a POST request and the body of the
