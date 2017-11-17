@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 //Grab the model we need
 const User = mongoose.model('User');
 
-// update a user (accessed at GET http://localhost:3000/users/:userId)
+// update a user (accessed at PUT http://localhost:3000/users/:userId)
 let updateUser = function(req, res) {
 
     User.findById(req.params.userId, (err, user) => {  
